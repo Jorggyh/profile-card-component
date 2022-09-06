@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --dark-gray-transparent: hsla(0, 0%, 59%, 0.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--dark-cyan);
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+  width: 32.6rem;
+  height: 37.4rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.card-bg {
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.profile-img {
+  width: 9.8rem;
+  box-sizing: content-box;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  left: 50%;
+  top: 14rem;
+  transform: translate(-50%, -60%);
+}
+
+.name-age {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 6.9rem 0 0.8rem;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+  padding-bottom: 2.4rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 0.1rem solid var(--dark-gray-transparent);
+  padding-top: 2.5rem;
+}
+
+.followers,
+.likes,
+.photos {
+  width: 7.5rem;
+}
+
+strong {
+  font-size: 1.75rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  color: var(--dark-gray);
+  padding-top: 0.5rem;
+}
+
+#circle-top {
+  position: fixed;
+  top: -60rem;
+  left: -78rem;
+  z-index: -1;
+}
+
+#circle-bottom {
+  position: fixed;
+  bottom: -65rem;
+  right: -75rem;
+  z-index: -1;
+}
