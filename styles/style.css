@@ -31,6 +31,7 @@ main {
   background-color: white;
   border-radius: 1.5rem;
   position: relative;
+  box-shadow: #14949f 0 15px 35px 15px;
 }
 
 .card-bg {
