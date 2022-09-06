@@ -31,7 +31,7 @@ main {
   background-color: white;
   border-radius: 1.5rem;
   position: relative;
-  box-shadow: #14949f 0 15px 35px 15px;
+  box-shadow: #14949f 0 20px 35px 5px;
 }
 
 .card-bg {
@@ -54,18 +54,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin: 7.1rem 0 0.9rem;
+  margin: 7rem 0 0.8rem;
   gap: 1rem;
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: var(--very-dark-desaturated-blue);
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 400;
   color: var(--Dark-grayish-blue);
 }
@@ -81,7 +81,7 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   border-top: 0.1rem solid var(--dark-gray-transparent);
-  padding: 2.3rem 1.5rem 0;
+  padding: 2.4rem 1.5rem 0;
 }
 
 .followers,
@@ -98,8 +98,8 @@ strong {
 p {
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  color: var(--dark-gray);
-  padding-top: 0.55rem;
+  color: var(--Dark-grayish-blue);
+  padding-top: 0.4rem;
 }
 
 #circle-top {
