@@ -21,8 +21,8 @@
 
   #circle-bottom {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 52%;
+    left: 48%;
     z-index: -1;
   }
 }
