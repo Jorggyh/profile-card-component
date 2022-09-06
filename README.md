@@ -25,14 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-| Mobile                          | Desktop                          |
-|---------------------------------|----------------------------------|
-| ![](/img/screenshot-mobile.png) | ![](/img/screenshot-desktop.png) |
+![](/img/screenshot.png)
 
 ### Links
 
 - Solution
-  URL: []()
+  URL: [https://www.frontendmentor.io/solutions/one-more-SRNXRZCK5p](https://www.frontendmentor.io/solutions/one-more-SRNXRZCK5p)
 - Live Site
   URL: [https://jorggyh.github.io/profile-card-component/](https://jorggyh.github.io/profile-card-component/)
 
